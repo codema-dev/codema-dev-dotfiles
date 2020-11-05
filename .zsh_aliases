@@ -22,4 +22,4 @@ alias ipy="ipython --no-banner --no-confirm-exit --quick --InteractiveShellApp.e
 
 alias gumaster="gfa && gco master && gmum && ggpush"
 
-alias jnbook="jupyter notebook --port=8888 --no-browser --ip=0.0.0.0 --allow-root"
+alias jnbook="poetry run jupyter notebook --port=8888 --no-browser --ip=0.0.0.0 --allow-root"
